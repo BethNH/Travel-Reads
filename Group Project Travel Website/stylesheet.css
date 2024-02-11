@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Bungee", sans-serif;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 36px;
+}
+
+h3 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 30px;
+}
+
+.accordion-header {
+  font-family: "Poiret One", sans-serif;
+  font-size: 36px;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* For the index hero banner */
+/* Container holding the image and the text */
+.containerHero {
+  position: relative;
+  text-align: center;
+  color: #fefee3;
+}
+/* Centered text */
+.centeredHero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
