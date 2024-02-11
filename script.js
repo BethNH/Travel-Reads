@@ -1,8 +1,8 @@
 function displayGreeting() {
-  let name = document.getElementById("nameInput").value;
-  if (name.trim() !== "") {
-    alert("Hey " + name + ", nice to meet you!");
+  let emailEntered = document.getElementById("newsletterform").value;
+  if (emailEntered.trim() !== "") {
+    alert("Thanks for signing up " + emailEntered + " 🙌");
   } else {
-    alert("Who's this?");
+    alert("No email entered, try again 😊");
   }
 }

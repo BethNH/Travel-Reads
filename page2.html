@@ -12,7 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bungee&family=Poiret+One&family=Work+Sans:wght@100;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="script" href="script.js">
+
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
@@ -24,7 +24,7 @@
 
     <!-- ------- nav --------- -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="./images/travel-guide.png" alt="TravelReads" width="30" height="26">
@@ -37,14 +37,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Log in</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Find a location" aria-label="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
             </div>
@@ -56,8 +56,8 @@
     <!---------- sub hero banner ---------->
 
     <div class="containerHero">
-        <img src="./images/paris1.jpg" alt="Paris landmark" style="width: 100%" height="400px">
-        <div class="centeredHero">
+        <img src="./images/paris1.jpg" alt="Paris landmark" style="width: 100%; height: 400px; object-fit: cover;">
+        <div class=" centeredHero">
             <h1>PARIS</h1>
             <h2></h2>
         </div>
@@ -69,13 +69,14 @@
     <main class="row mt-4">
         <div class="col-sm-2"></div>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-8 mt-4">
             <h2>Enjoy the wonderful sites of Paris</h2>
+            </br>
             <p>Whether your spending a few days or a few weeks, make sure you immerse yourself in the culture of Paris
                 before you even arrive! We've detailed the best books to read and films or series to binge on your
                 jouney to, from and within this beautiful city.</p>
 
-            <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion mt-5" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -96,11 +97,14 @@
                                             <h3 class="card-title">Notre Dame de Paris (The Hunchback of Notre Dame),
                                                 1831
                                             </h3>
-                                            <p class="card-text">As a visitor it's almost impossible not to see the
+                                            <p> As a visitor it's almost impossible not to see the
                                                 splendid Notre-Dame Cathedral through the eyes of Victor Hugo and his
                                                 creation Quasimodo. One of our favourite reads for the journey ahead,
-                                                also has a classic film adaption!</p>
-                                            <button type="button" class="btn btn-primary mt-4">Buy Now</button>
+                                                also has a classic film adaption!
+                                            </p>
+                                            <a href="https://www.amazon.co.uk/Notre-Dame-Paris-Classics-Victor-Hugo/dp/0140443533/ref=pd_sbs_d_sccl_1_2/262-1219684-7191430?pd_rd_w=xwlES&content-id=amzn1.sym.f5d177b3-9290-4c61-8b0e-06b08cdd933f&pf_rd_p=f5d177b3-9290-4c61-8b0e-06b08cdd933f&pf_rd_r=QJR3CPX6FCGZ5MBP1FME&pd_rd_wg=XTLmQ&pd_rd_r=3565dac5-9247-4093-8647-8e864113f018&pd_rd_i=0140443533&psc=1"
+                                                type="button" class="btn btn-primary mt-4" target="_blank">Buy
+                                                Now</a></button>
                                             <!-- This is going to page 3! -->
                                             <button type="button" class="btn btn-primary mt-4">Check out our other
                                                 reads</button>
@@ -140,7 +144,8 @@
                                                 appear.
                                             </p>
                                             <a href="https://www.disneyplus.com/en-gb/movies/the-hunchback-of-notre-dame/796BIJb9AlES"
-                                                type="button" class="btn btn-primary mt-4">Watch on Disney+</a></button>
+                                                type="button" class="btn btn-primary mt-4" target="_blank">Watch on
+                                                Disney+</a></button>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
@@ -164,64 +169,74 @@
     <!-------------- base hero image ------------------->
 
 
+    <div class="row mt-5">
+        <div class="containerHero md-4">
+            <img src="./images/paris houses_980px.png" alt="paris homes"
+                style="width: 100%; height: 400px; object-fit: cover;">
+        </div>
+    </div>
 
     <!-- base hero image ends -->
 
     <!-------------------footer------------------------>
 
-    <footer class="bg-light text-center mt-4">
+    <footer class="bg-light text-center custom-height">
         <!-- Grid container -->
         <div class="container p-5 pb-0">
             <!-- Section: Form -->
-            <section class="">
-                <form action="">
-                    <!--Grid row-->
-                    <div class="row d-flex justify-content-center">
-                        <!--Grid column-->
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Sign up for our newsletter</strong>
-                            </p>
-                        </div>
-                        <!--Grid column-->
 
-                        <!--Grid column-->
-                        <div class="col-md-5 col-12">
-                            <!-- Email input -->
-                            <div class="form-outline mb-5">
-                                <input type="email" id="form5Example2" placeholder="Enter your email address"
-                                    class="form-control" />
-
-                            </div>
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-auto">
-                            <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary mb-4">
-                                Subscribe
-                            </button>
-                        </div>
-                        <!--Grid column-->
+            <form>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
                     </div>
-                    <!--Grid row-->
-                </form>
-            </section>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline mb-5">
+                            <input type="email" id="newsletterform" placeholder="Enter your email address"
+                                class="form-control" />
+
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-auto">
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary mb-4" onclick="displayGreeting()">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+
             <!-- Section: Form -->
         </div>
         <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #2c6e49; color:#fefee3;">
-            © 2024 Made With Love
-        </div>
-        <!-- Copyright -->
+
     </footer>
 
+    <!-- Copyright -->
+
+    <div class="text-center p-3" style="background-color: #2c6e49; color:#fefee3; font-weight: 200;">
+        © 2024 Made for the journey
     </div>
+    <!-- Copyright -->
+
     <!-------------------footer ends ------------------------>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>

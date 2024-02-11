@@ -12,7 +12,6 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bungee&family=Poiret+One&family=Work+Sans:wght@100;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="script" href="script.js">
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 
@@ -23,7 +22,7 @@
 
     <!-- ------- nav --------- -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
                 <img src="./images/travel-guide.png" alt="TravelReads" width="30" height="26">
@@ -36,14 +35,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Log in</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" placeholder="Find a location" aria-label="Search">
                     <button class="btn btn-success" type="submit">Search</button>
                 </form>
             </div>
@@ -55,29 +54,28 @@
     <!---------- hero banner ---------->
 
     <div class="containerHero">
-        <img src="./images/clouds-7397802_1280_588px.png" alt="clouds" style="width: 100%" height="400px">
+        <img src="./images/clouds-7397802_1280_588px.png" alt="clouds"
+            style="width: 100%; height: 400px; object-fit: cover;">
         <div class="centeredHero">
             <h1>TravelReads</h1>
             <h2>Find your travel companion 📔🎥</h2>
-            <button type="button" class="btn btn-primary mt-4">Get started</button>
+
         </div>
     </div>
     </hero>
 
-
     <!--  hero ends -->
 
     <!----------------main - 3 locations ---------------->
-    <!-- WHY ARN'T MY CONTAINERS THE SAME SIZE WITH A WORKING COVER IMAGE? -->
 
     <main class="container text-center mt-4">
 
         <div class="row mb-4">
             <div class="col-sm-7">
-                <img src="./images/paris1.jpg" class="img-fluid" alt="paris landmark" style="width: 600px"
-                    height="400px" image="cover">
+                <img src="./images/paris1.jpg" class="img-fluid" alt="paris landmark"
+                    style="width: 700px; height: 350px; object-fit: cover;">
             </div>
-            <div class="col-sm-5 d-flex flex-column justify-content-center align-items-center">
+            <div class=" col-sm-5 d-flex flex-column justify-content-center align-items-center">
                 <h2>Paris</h2>
                 <p>Visit one of the most romantic cities in France</p>
                 <a href="page2.html" button type="button" class="btn btn-primary">Fly here</a></button>
@@ -91,15 +89,15 @@
                 <button type="button" class="btn btn-primary">Fly here</button>
             </div>
             <div class="col-sm-7">
-                <img src="./images/London1.jpg" class="img-fluid" alt="london landmark" style="width: 600px"
-                    height="400px" image="cover">
+                <img src="./images/London1.jpg" class="img-fluid" alt="london landmark"
+                    style="width: 700px; height: 350px; object-fit: cover;">
             </div>
         </div>
 
         <div class="row mb-4">
             <div class="col-sm-7">
-                <img src="./images/newyork1.jpg" class="img-fluid" alt="new york landscape" style="width: 600px"
-                    height="400px" image="cover">
+                <img src="./images/newyork1.jpg" class="img-fluid" alt="new york landscape"
+                    style="width: 700px; height: 350px; object-fit: cover;">
             </div>
             <div class="col-sm-5 d-flex flex-column justify-content-center align-items-center">
                 <h2>New York</h2>
@@ -114,69 +112,71 @@
     <!-------------- base hero image ------------------->
 
     <div class="containerHero">
-        <img src="./images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" alt="beach" style="width: 100%" height="350px">
+        <img src="./images/link-hoang-UoqAR2pOxMo-unsplash.jpg" alt="beach"
+            style="width: 100%; height: 400px; object-fit: cover;">
     </div>
 
     <!-- base hero image ends -->
 
     <!-------------------footer------------------------>
 
-    <footer class="bg-light text-center">
+    <footer class="bg-light text-center custom-height">
         <!-- Grid container -->
         <div class="container p-5 pb-0">
             <!-- Section: Form -->
-            <section class="">
-                <form action="">
-                    <!--Grid row-->
-                    <div class="row d-flex justify-content-center">
-                        <!--Grid column-->
-                        <div class="col-auto">
-                            <p class="pt-2">
-                                <strong>Sign up for our newsletter</strong>
-                            </p>
-                        </div>
-                        <!--Grid column-->
 
-                        <!--Grid column-->
-                        <div class="col-md-5 col-12">
-                            <!-- Email input -->
-                            <div class="form-outline mb-5">
-                                <input type="email" id="form5Example2" placeholder="Enter your email address"
-                                    class="form-control" />
-
-                            </div>
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-auto">
-
-                            <!-- FIX THIS SO THE BUTTON WORKS WITH JS - USE PAGE 2 CODE TO REVERT BACK -->
-
-                            <!-- Submit button -->
-                            <button type="submit" class="btn btn-primary mb-4" onclick="displayGreeting()">
-                                Subscribe
-                            </button>
-                        </div>
-                        <!--Grid column-->
+            <form>
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
                     </div>
-                    <!--Grid row-->
-                </form>
-            </section>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline mb-5">
+                            <input type="email" id="newsletterform" placeholder="Enter your email address"
+                                class="form-control" />
+
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-auto">
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary mb-4" onclick="displayGreeting()">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+
             <!-- Section: Form -->
         </div>
         <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: #2c6e49; color:#fefee3;">
-            © 2024 Made With Love
-        </div>
-        <!-- Copyright -->
+
     </footer>
 
+    <!-- Copyright -->
+
+    <div class="text-center p-3" style="background-color: #2c6e49; color:#fefee3; font-weight: 200;">
+        © 2024 Made for the journey
     </div>
+    <!-- Copyright -->
+
     <!-------------------footer ends ------------------------>
 
+    <script src="./script.js"></script>
 </body>
 
 </html>
